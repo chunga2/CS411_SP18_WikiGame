@@ -18,7 +18,7 @@ Thirdly, as this is a user-interact website, our web service will provide severa
 
 ## Realness:
 
-Our data include all courses’ number, name, instructors, and description in University of Illinois. These course information are crawled from Course Explorer. We will also use students’ preference, registered classes, and reviews, which will be obtained from our users. 
+Our data include all courses’ number, name, instructors, and description in University of Illinois. These course information are crawled from Course Explorer. We will also use students’ preference, registered classes, and reviews, which will be obtained from our users.
 
 
 ## Functionality:
