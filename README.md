@@ -1,8 +1,13 @@
 # WikiRacer
 
-## Description:
+## Description
 
-We decide to build a Q&A web service for all courses offered in UIUC, which is open for all students including undergrads, grads, and alumni. It can be described as ”a mixture of piazza and reddit”. There will be a unique tab for each course, under which all students are welcome to ask and answer questions as well as post review/comments related to the course. Marking system will be included for the overall difficulty, recommendation rate, registration difficulty, etc. of each course and users/students are encouraged to leave their rate on them. Recommendation system is provided as a key feature of our service that suggests a list of courses for a student to take next semester according to his/her major requirements, academic standing, interested/attended courses and the registration difficulty of each course.
+We want to implement a WikiRacing game.  The game is as follows:
+1. Users join a game, and are given a start point and end point.  They are presented with an interface that looks like [this](https://luke.deentaylor.com/wikipedia/).
+2. Users must find a path through the graph from the start article to the end article.  Every time they expand an article, they are presented with a graph showing more articles.  The database tracks clicks.
+3. When everyone finds a path, the game ends.  The people who expanded the fewest links win.
+The database should track all of this, and be used to present visualizations and leaderboards.
+
 
 
 ## Usefulness:
