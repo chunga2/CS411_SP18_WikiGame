@@ -10,15 +10,15 @@ We want to implement a WikiRacing game.  The game is as follows:
 3. When everyone finds a path, the game ends.  The people who expanded the fewest links win.
 The database should track all of this, and be used to present visualizations and leaderboards.
 
-## Usefulness:
+## Usefulness
 
 We believe that this game represents an interactive way to explore Wikipedia, one of the best sources of information about a variety of topics, and find out about more topics and articles that they may not have known about before. Furthermore, our recommendation features would help them find more relevant articles and information for them to explore once they are done playing the game.
 
-## Realness:
+## Realness
 
 Out data will be parsed from Wikipedia. These data are publically available online. We will use a web crawler to crawl through wikipedia and create associations between links.
 
-## Functionality:
+## Functionality
 Basic functions:
 
 - Get real data by crawling Wikipedia. Crawling Wikipedia for the article name and intro to set up the visualization part of the game.
@@ -27,7 +27,7 @@ Basic functions:
 - We’ll have a visualization for handling the user playing the game, allowing them to click on links in a user-friendly way.
 - After the game, the user can get a score and store that onto a scoreboard. 
 
-### Advanced functions:
+### Advanced Functions
 - Visualization - After a user plays each round of the game, we want to generate 3 visualizations of the subset of the graph of articles that was relevant to the round that was played. One visualization would display the most optimal (shortest) path between the starting and ending articles. Another visualization would display the most commonly traveled path based on other users that have played the same round. Another visualization would display the overall user’s path and what other possible options they had. In this way, they can compare their performance with the most optimal solution and other people’s solutions, to understand how they can improve from round to round.
 Post filter
 
